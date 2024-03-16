@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thriftin</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+      <h1>THRIFTIN</h1>
+      <img src="./res/thriftLogo.png" alt="" />
+    </div>
+    <div class="searchContainer">
+      <input type="search" name="search" id="searchBar" />
+      <button>SEARCH</button>
+    </div>
+      <nav>
+        <ul>
+        <img src="./res/icons8-male-user-50.png" alt="" />
+          <a href="#">Account</a>
+          <img src="./res/icons8-cart-50.png" alt="" />
+          <a href="#">Cart</a>
+        </ul>
+    </nav>
+    </header>
+    <main>
+      <section class="cart">
+        <div class="itemBoxCart" data-price="15800">
+          <div class="imgRemoveAndHeart">
+            <img class="itemImage" src="./res/cameraMic.jpg" alt="" />
+            <button class="remove">REMOVE</button>
+            <img class="heart" src="./res/icons8-heart-50.png" alt="">
+
+          </div>
+          <div class="ItemInfo">
+            <h4>Camera Microphone</h4>
+            <h5>Seller: Weshopping</h5>
+            <p>100 units left</p>
+          </div>
+          <div class="amountAndQuantityBtn">
+            <h5>15,800</h5>
+            <button class="decrement">-</button>
+            <p class="quantity">1</p>
+            <button class="increment">+</button>
+          </div>
+        </div>
+        <div class="itemBoxCart" data-price="112000">
+          <div class="imgRemoveAndHeart">
+            <img class="itemImage" src="./res/powerBank.jpg" alt="" />
+            <button class="remove" >REMOVE</button>
+                        <img class="heart" src="./res/icons8-heart-50.png" alt="">
+          </div>
+          <div class="ItemInfo">
+            <h4>Samsung Powerbank</h4>
+            <h5>Seller: Weshopping</h5>
+            <p>120 units left</p>
+          </div>
+          <div class="amountAndQuantityBtn">
+            <h5>112,000</h5>
+            <button class="decrement">-</button>
+            <p class="quantity">1</p>
+            <button class="increment">+</button>
+          </div>
+        </div>
+        <div class="itemBoxCart" data-price="12000">
+          <div class="imgRemoveAndHeart">
+            <img class="itemImage" src="./res/shoeItem.jpg" alt="" />
+            <button class="remove">REMOVE</button>
+                        <img class="heart" src="./res/icons8-heart-50.png" alt="">
+          </div>
+          <div class="ItemInfo">
+            <h4>Men Sandals</h4>
+            <h5>Seller: Weshopping</h5>
+            <p>1200 units left</p>
+          </div>
+          <div class="amountAndQuantityBtn">
+            <h5>12,000</h5>
+            <button class="decrement">-</button>
+            <p class="quantity">1</p>
+            <button class="increment">+</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="totalPrice">Total Price: 139,800</div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

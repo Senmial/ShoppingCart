@@ -1,0 +1,89 @@
+html, body {
+    font-family: "Madimi One", sans-serif;
+      }
+
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px;
+}
+nav{
+    margin-right: 10px;
+}
+nav li {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.searchBar{
+    size: 100px;
+}
+
+.itemBoxCart{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+.itemImage{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.amountAndQuantityBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.amountAndQuantityBtn button{
+    width: 30px;
+    height: 20px;
+}
+
+.heart {
+    cursor: pointer;
+width: 20px;
+height: auto;
+}
+.imgRemoveAndHeart{
+gap: 10px;    
+}
+
+#totalPrice{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    margin: 20px;
+}
