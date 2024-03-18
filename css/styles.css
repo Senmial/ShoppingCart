@@ -87,3 +87,7 @@ gap: 10px;
     background-color: aquamarine;
     margin: 20px;
 }
+
+.heart:hover{
+    background-color: pink;
+}
