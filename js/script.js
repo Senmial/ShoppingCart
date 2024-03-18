@@ -34,9 +34,11 @@ decrementButton.forEach(button => {
     button.addEventListener('click', () => {
         const quantityElement = button.parentElement.querySelector('.quantity');
         let quantity = parseInt(quantityElement.textContent);
-            quantity--;
+          if (quantity > 0) {
+        quantity--;
         quantityElement.textContent = quantity;
         updateTotalPrice();
+          }
     });
 });
 
@@ -55,3 +57,4 @@ heartIcon.forEach(icon => {
       icon.classList.toggle('clicked');
     });
   });
+
