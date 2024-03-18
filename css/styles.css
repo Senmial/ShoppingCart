@@ -1,97 +1,102 @@
-html, body {
-    font-family: "Madimi One", sans-serif;
-      }
-
-
-header{
-    background-color: aqua;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+}
+header {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 50px;
+  height: 50px;
+}
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
 }
-header img{
-    width: 50px;
-    height: 50px;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-left: 10px;
-}
-nav{
-    margin-right: 10px;
+nav {
+  margin-right: 10px;
 }
 nav li {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-nav img{
-    width: 30px;
-    height: 30px;
+nav img {
+  width: 30px;
+  height: 30px;
 }
 
-.searchBar{
-    size: 100px;
+.searchBar {
+  size: 100px;
 }
 
-.itemBoxCart{
-    display: flex;
-    justify-content: center;
-    width: 70vw;
-    justify-content: space-evenly;
-    background-color: aquamarine;
-    margin: 20px;
+.itemBoxCart {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  justify-content: space-evenly;
+  margin: 20px;
+  border: 5px solid antiquewhite;
 }
 
-.itemImage{
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
+.itemImage {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
 }
 
-.amountAndQuantityBtn{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
+.amountAndQuantityBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.amountAndQuantityBtn button{
-    width: 30px;
-    height: 20px;
+.amountAndQuantityBtn button {
+  width: 30px;
+  height: 20px;
 }
 
 .heart {
-    cursor: pointer;
-width: 20px;
-height: auto;
+  cursor: pointer;
+  width: 20px;
+  height: auto;
 }
 
-.imgRemoveAndHeart{
-gap: 10px;    
+.imgRemoveAndHeart {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#totalPrice{
-    display: flex;
-    justify-content: center;
-    width: 70vw;
-    justify-content: space-evenly;
-    background-color: aquamarine;
-    margin: 20px;
+#totalPrice {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  justify-content: space-evenly;
+  margin: 20px;
+  border: 5px solid antiquewhite;
+
 }
 
-
-.heart.clicked{
-    background-color: red;
+.heart.clicked {
+  background-color: red;
 }
-
-
